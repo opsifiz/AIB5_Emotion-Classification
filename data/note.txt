@@ -1,0 +1,4 @@
+Collecting Data :
+1. https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health
+2. https://huggingface.co/datasets/Kanakmi/mental-disorders
+3. https://www.kaggle.com/datasets/kamaruladha/mental-disorders-identification-reddit-nlp
