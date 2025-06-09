@@ -1,4 +1,4 @@
-# AI Builder 5 : Mental Health Sentiment Analysis
+# AI Builder 5 : Emotion Classification
 
 Blog Post : https://medium.com/@fifafayya/mental-health-sentiment-analysis-985f9901d906
 
