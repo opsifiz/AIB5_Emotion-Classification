@@ -15,10 +15,12 @@ id2label = {
     0: 'Anxiety',
     1: 'BPD',
     2: 'Normal',
-    3: 'bipolar',
-    4: 'depression',
-    5: 'mentalillness',
-    6: 'schizophrenia'
+    3: 'Stress',
+    4: 'Suicidal',
+    5: 'Bipolar',
+    6: 'Depression',
+    7: 'Mentalillness',
+    8: 'Schizophrenia'
 }
 
 def clean_text(text):
@@ -45,8 +47,8 @@ demo = gr.Interface(
     fn=predict,
     inputs=gr.Textbox(lines=3, placeholder="Enter text here..."),
     outputs=gr.Label(),
-    title="Mental Health Text Classifier",
-    description="Predicts mental health category based on text input."
+    title="Text - Emotion Classifier",
+    description="Predicts emotion category based on text input."
 )
 
 if __name__ == "__main__":
